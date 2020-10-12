@@ -1,6 +1,9 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+    experiments: {
+        topLevelAwait: true,
+    },
     module: {
         rules: [
             {
